@@ -1,0 +1,22 @@
+/* roadside.css */
+.roadside-banner {
+    background-color: #007BFF; /* Change the background color to your preference */
+    color: white; /* Text color */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center; /* Center-align text */
+  }
+  
+  .roadside-button {
+    background-color: #FF5733; /* Change the button background color to your preference */
+    color: white; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; /* Add rounded corners to the button */
+  }
+  
+  .roadside-button:hover {
+    background-color: #FF8C66; /* Change the button color on hover */
+  }
+  

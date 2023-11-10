@@ -1,0 +1,57 @@
+.Tire-container {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    gap: 10px;
+    width: 720px; 
+    height: 200px; 
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .tire-images {
+    width: 720px; 
+    height: 200px; 
+    display: flex;
+    animation: rotateImages 8s linear infinite;
+  }
+  
+  .tire-image {
+    width: calc(720px / 4);
+    height: 155px; 
+    object-fit: contain;
+  }
+  
+  @keyframes rotateImages {
+    0% {
+      transform: translateX(0);
+      
+    }
+    20% {
+      transform: translateX(0); 
+    }
+    25% {
+      transform: translateX(-100%);
+    }
+    45% {
+      transform: translateX(-100%); 
+    }
+    50% {
+      transform: translateX(-200%);
+    }
+    70% {
+      transform: translateX(-200%); 
+    }
+    75% {
+      transform: translateX(-300%);
+    }
+    100% {
+      transform: translateX(-300%); 
+    }
+    
+    
+  }
+  
