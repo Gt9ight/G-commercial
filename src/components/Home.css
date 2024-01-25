@@ -1,0 +1,89 @@
+.banner-one{
+    background-image: url(https://www.vipauto.com/wp-content/uploads/2022/11/tires.jpg);
+    background-size: cover;
+    color: azure;
+    border: none;
+    margin: 0 auto;
+    gap: 10px;
+    width: 100%; 
+    height: 400px; 
+
+}
+
+.banner-text-one{
+    text-align: right;
+    font-size: 27px;
+    margin-right: 50px;
+}
+
+.subtextOne-banner-one{
+    margin-top: 70px;
+    margin-right: 100px;
+}
+
+.services-title{
+    text-align: center;
+    font-size: 50px;
+}
+
+.services {
+    background-image: url();
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px; 
+}
+
+.commuter-service,
+.truck-service,
+.road-service,
+.allTime-service {
+    width: 48%;
+    text-align: center;
+    margin-left: 10px;
+    height: 150px; 
+    margin-bottom: 10px;
+    border: solid 5px;
+    box-sizing: border-box;
+}
+.about-us-banner {
+    background-color: #007bff; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2em;
+  }
+  
+  .company-info, .our-offerings, .contact {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    color: #fff;
+  }
+  
