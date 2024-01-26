@@ -44,14 +44,30 @@
     width: 48%;
     text-align: center;
     margin-left: 10px;
-    height: 150px; 
+    height: 420px; 
     margin-bottom: 10px;
     border: solid 5px;
     box-sizing: border-box;
+    background-size: cover; /* or contain, depending on your preference */
+    background-repeat: no-repeat;
+}
+
+.commuter-service {
+  background-image: url(https://www.sviinternational.com/wp-content/uploads/2023/08/shutterstock_323431664.jpg);
+}
+
+.truck-service{
+  background-image: url(https://img.moderntiredealer.com/files/base/ebm/moderntiredealer/image/2023/03/16x9/Justin_Exit11_service_bay2.642445a65fd3b.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630);
+}
+
+.road-service{
+  background-image: url(https://360towingsolutions.com/wp-content/uploads/2019/10/Depositphotos_85764728_l-2015-1024x635.jpg);
 }
 .about-us-banner {
-    background-color: #007bff; 
+  background-image: url(https://www.sttc.com/wp-content/uploads/2018/06/wheels-428525_1920-1.jpg);
     color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 20px;
     text-align: center;
   }
@@ -87,3 +103,22 @@
     color: #fff;
   }
   
+
+  .banner-image{
+    position: relative;
+    background-image: url(https://huntertires.com/wp-content/uploads/2016/10/How-to-Change-Commercial-Truck-Tire.png);
+    width: 100%;
+    color: #fff;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .bannerImage-text {
+    width: 90%;
+    margin-left: auto; /* Align text to the right */
+    text-align: right;
+    margin-right: 50px;
+    font-size: 30px;
+  }

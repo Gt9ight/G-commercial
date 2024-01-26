@@ -36,6 +36,13 @@ const Home = () => {
         </div>
       </div>
 
+      <div className='banner-image'>
+        <div className='bannerImage-text'>
+          <h1>EASY...</h1>
+          <h3>Call G Commercial Tire</h3>
+        </div>
+      </div>
+
       </div>
 <div className='about-us-banner'>
       <section className="company-info">
